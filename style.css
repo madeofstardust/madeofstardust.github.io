@@ -1,0 +1,17 @@
+
+body {
+	font-family: comfortaa, sans-serif;
+}
+
+.card {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20%;
+	}
+
+.btn  {
+	max-width: 80px;
+	margin-left: 40%;
+	margin-bottom: 5%;
+}

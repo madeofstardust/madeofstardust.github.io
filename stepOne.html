@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		
+				<!-- bootstrap -->
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+				<!-- -->
+				<!-- css -->
+					<link rel="stylesheet" type="text/css" href="stepOne.style.css">
+				<!-- -->
+					<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	</header>
+
+	<body onload="num">
+		<div id="impress">
+			<div id="1" class="step box" data-x="0" data-y="0" >
+				  			<h1>Step One</h1>
+				  			<h3 id=>Get some move</h3>
+				  			<p>Let's getting started! If You can, stand up, but it can also be done while sitted, You couch potato. Firstly, grab Your palms and place them straighten above Your head. Close Your eyes and take a big breath, after which release the air slowly. Try to stretch Your back, maybe swing a little bit, side to side.</p>
+				  			<a role="button"  class="button btn btn-info" href="#2">Done!</a>
+				  	
+			</div>
+			<div id="2" class="step box" data-x="1250" data-y="0" >
+				  			<h1 >Step One</h1>
+				  			<h3>Get more move</h3>
+				  			<p>Now stretch Your left arm in front of You and use right arm to cover left eye. Now draw an eight with the stretched arm and follow it with the opened eye. Switch sides</p>
+				  			<p>Are You ready?</p>
+				  			<a  role="button"  class=" button btn btn-info" id="buttonOne" href="#3">Ya-ha</a>
+			</div>
+			<div id="3" class="step box" data-x="1250" data-y="-1250"  >
+				  			<h1>Step Two</h1>
+				  			<h3>Hello darkness part one</h3>
+				  			<p>Now, close Your eyes. Whoops, not now. Wait 'till the end of the paragraph. Try to repeat previous exercise, only now make it in Your head. Imagine a big eight and follow its lines with your eyes, but keep them closed.</p>
+				  			<p>Are You ready? Click the button and wait untill You hear the sound</p>
+				  			<a role="button"  class="button btn btn-info" id="buttonOne" href="#4" onclick="setTimeout(BeepBeep, 45000)">Start</a>
+			</div>
+			<div id="4" class="step box" data-x="2500" data-y="-1250" >
+				  			<h1>Step Three</h1>
+				  			<h3>Palming</h3>
+				  			<p>This time it's only about darkness. Press Your closed eyes with Your palms. At first You'll see lots of this funny, fireworks-like dots, but relaxed eyes see nothing but pure black background. <br> Tip no. 1: don't press too hard, You shouldn't feel pain! <br> Tip no. 2: don't sit in front of the window or a screen, otherwise it won't work. a signal will let You know when to stop. </p>
+				  			<p id="paragraphTwo"> See You ;)</p>
+				  			<a  role="button"  class="button btn btn-info" id="buttonOne" href="#5" onclick="setTimeout(BeepBeep, 45000)">Ready, set..</a>
+			</div>
+			<div id="5" class="step box" data-x="2500" data-y="-2500" >
+				  			<h1>Step Four</h1>
+				  			<h3>The Final Battle.. with muscle tension</h3>
+				  			<p>The Idea behind the stereographs is pretty easy. It's just like magic - completely frustrating and hard at the beginning, but pretty funny when You can do it. </p>
+				  			<p> If Your eyes are relaxed, instead of monotonous background You'll see some other picture, which feels like 3D. Now, there are few techniques to actually see the stereogram, but You have to find out yourself, which suites You the best - just try to relax and, by unfocusing eyesight, let everything get blurry.</p>
+				  			<p> From my experience, contact lenses make watching stereograms harder; I also usually put my glasses of, which helps as well.</p>
+				  			<a  role="button"  class="button btn btn-info" id="buttonOne" href="#6">I wanna try!</a>
+			</div>
+			<div id="6" class="step box" data-x="3750" data-y="-2500"  >
+				  			<h1>Step Four</h1>
+				  			<div id="stereogram">
+								<p></p>
+				  			</div>
+				  			<p id="last">Click on the button to get an image. Re-click to change it.</p>
+				  			<p id="paragraphTwo">Good Luck!</p>
+				  			<a role="button"  class="button btn btn-info" id="buttonOne" href="#" onclick="setTimeout(BeepBeep, 45000)">Click me first!</a>
+				  			<button class="btn btn-info" onclick="New()">Get an image</button>
+				  			<a role="button"  class="button btn btn-dark" id="buttonOne" href="#7">I'm done here</a>
+
+			</div>
+				<div id="7" class="step box" data-x="3750" data-y="-3750"  >
+				  			<h1>Thank You very much! </h1>
+				  			<p>Now go and eat some carrots and berries!</p>
+				  			<p>Visit me once in a while,</p>
+				  			<p id="paragraphTwo">See You!</p>
+				  			
+
+			<p>Copyright to Weronika Skowrońska w.skowronska1021@gmail.com</p>
+		
+
+			</div>
+		</div>	
+		
+		
+	<!-- impress.js --> 
+				<script type="text/javascript" src="impress.js"></script>
+				<script>
+					impress().init();
+				</script>	
+				<!-- -->
+			<!-- bootstrap js -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+			<!-- -->
+			<!-- js -->
+			<script src="stepOne.js"></script>
+			<!-- -->
+	</body>
+</html>

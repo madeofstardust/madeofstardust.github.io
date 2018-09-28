@@ -1,0 +1,47 @@
+body {
+	font-family: Comfortaa, sans-serif;
+}
+
+.box {
+	padding: 15px;
+	display:block;
+	width:700px;
+	border: 1px solid rgba(0,0,0, .1);
+	border-radius: 3px; 
+	}	
+	
+.btn  {
+	max-width: 1200px;
+	margin-bottom: 5%;
+	margin-right: 1%;
+}
+.buttons {
+	float: center;
+
+}
+
+img {
+	width: 90%;
+	margin-top:2%;
+	margin-left: 5%;
+	margin-bottom: 2%
+	}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0.25px, 0.25px) rotate(0deg); }
+  10% { transform: translate(-0.25px, -0.5px) rotate(-0.125deg); }
+  20% { transform: translate(-0.75px, 0px) rotate(0.125deg); }
+  30% { transform: translate(0.75px, 0.5px) rotate(0deg); }
+  40% { transform: translate(0.25px, -0.25px) rotate(0.125deg); }
+  50% { transform: translate(-0.25px, 0.5px) rotate(-0.125deg); }
+  60% { transform: translate(-0.75px, 0.25px) rotate(0deg); }
+  70% { transform: translate(0.75px, 0.25px) rotate(-0.125deg); }
+  80% { transform: translate(-0.25px, -0.25px) rotate(0.125deg); }
+  90% { transform: translate(0.25px, 0.5px) rotate(0deg); }
+  100% { transform: translate(0.25px, -0.5px) rotate(-0.125deg); }
+}
